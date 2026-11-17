@@ -1,0 +1,13 @@
+market,protocol,family,enabled,addresses
+aave-v3,Aave V3,aave_v3,1,"{""pool"": ""0x794a61358D6845594F94dc1DB02A252b5b4814aD""}"
+compound-v3-usdc,Compound V3,comet,1,"{""comet"": ""0x9c4ec768c28520B50860ea7a15bd7213a9fF58bf""}"
+compound-v3-usdc-e,Compound V3,comet,1,"{""comet"": ""0xA5EDBDD9646f8dFF606d7448e414884C7d905dCA""}"
+compound-v3-weth,Compound V3,comet,1,"{""comet"": ""0x6f7D514bbD4aFf3BcD1140B7344b32f063dEe486""}"
+compound-v3-usdt,Compound V3,comet,1,"{""comet"": ""0xd98Be00b5D27fc98112BdE293e487f8D4cA57d07""}"
+morpho-blue,Morpho Blue,morpho_blue,1,"{""morpho"": ""0x6c247b1F6182318877311737BaC0844bAa518F5e""}"
+dolomite,Dolomite,dolomite,1,"{""margin"": ""0x6Bd780E7fDf01D77e4d475c821f1e7AE05409072""}"
+venus-core,Venus (isolated pools),compound_v2,1,"{""comptroller"": ""0x317c1A5739F39046E20b08ac9BeEa3f10fD43326""}"
+venus-lst,Venus (isolated pools),compound_v2,1,"{""comptroller"": ""0x52bAB1aF7Ff770551BD05b9FC2329a0Bf5E23F16""}"
+radiant-v2,Radiant Capital V2,aave_v2,0,"{""pool"": ""0xF4B1486DD74D07706052A33d31d7c0AAFD0659E1""}"
+silo-v2,Silo Finance V2,silo_v2,1,"{""factory"": ""0xAFd8F792cb025A76C4916652CfC8e20eee3b6fe2"", ""lens"": ""0xBDD37B244E5e02FdE2e3F0510AB0bF3Fd621d089""}"
+morpho-preliq,Morpho Blue pre-liquidations,morpho_preliq,1,"{""factory"": ""0x635c31B5DF1F7EFbCbC07E302335Ef4230758e3d"", ""morpho"": ""0x6c247b1F6182318877311737BaC0844bAa518F5e""}"
