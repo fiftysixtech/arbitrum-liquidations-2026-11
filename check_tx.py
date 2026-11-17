@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
-"""Independent check of transactions, straight from the node: no liqwatch code, standard library only.
+"""Check any transaction in this dataset straight from an Arbitrum node. Python 3, standard library only.
 
-    .venv/bin/python scripts/check_tx.py 0x7ed7...e53 0x1c76...ea5        # full 66-character hashes
-    RPC=http://127.0.0.1:8547 python3 scripts/check_tx.py <hash> ...       # RPC defaults to that URL
+    python3 check_tx.py 0x7ed7...e53 0x1c76...ea5                 # full 66-character transaction hashes
+    RPC=https://your-arbitrum-rpc python3 check_tx.py <hash> ...  # RPC defaults to http://127.0.0.1:8547,
+                                                                  # a local Arbitrum (Nitro) node
 
 For each transaction it prints status, block, UTC time and recipient; every Atlas solver operation (bid,
 executed, success); the Chainlink update events; and every token transfer, summed per token / from / to.

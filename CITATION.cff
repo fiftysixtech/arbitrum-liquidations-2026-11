@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below."
+type: dataset
+title: "Arbitrum liquidations and Chainlink SVR auctions, 8–15 November 2026"
+authors:
+  - name: "Fiftysix"
+    website: "https://fiftysix.tech"
+date-released: 2026-11-17
+license: CC-BY-4.0
+url: "https://fiftysix.tech/solver/aave-liquidation-bonus-arbitrum/"
+repository: "https://github.com/fiftysixtech/arbitrum-liquidations-2026-11"
+abstract: >-
+  Every liquidation (428) on eleven Arbitrum lending markets from 8 to 15 November 2026,
+  and every Chainlink Smart Value Recapture auction among them (136), with winning bids,
+  realized bonuses and prices, measured by Fiftysix from its own Arbitrum node.
+keywords:
+  - Arbitrum
+  - liquidations
+  - Aave
+  - Chainlink SVR
+  - Atlas
+  - DeFi
